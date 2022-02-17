@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Billy's Store</h1>
+        <h1 className={styles.title}>Billy&apos;s Store</h1>
 
         <p className={styles.description}>
           Get started by editing{" "}
