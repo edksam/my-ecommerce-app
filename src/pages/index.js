@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Container from "@components/Container";
 import Button from "@components/Button";
 
@@ -23,7 +24,7 @@ export default function Home() {
         <ul className={styles.products}>
           {products.map((product, id) => (
             <li key={id}>
-              <img src={product.image} alt={`Card of ${product.title}`} />
+              <Image src={product.image} alt={`Card of ${product.title}`} />
               <h3 className={styles.productTitle}>{product.title}</h3>
               <p className={styles.productPrice}>£{product.price}</p>
               <p>
