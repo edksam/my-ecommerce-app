@@ -24,7 +24,7 @@ export default function Home() {
         <ul className={styles.products}>
           {products.map((product, id) => (
             <li key={id}>
-              <Image width="846" height="1200" src={product.image} alt={`Card of ${product.title}`} />
+              <Image width="864" height="1200" src={product.image} alt={`Card of ${product.title}`} />
               <h3 className={styles.productTitle}>{product.title}</h3>
               <p className={styles.productPrice}>£{product.price}</p>
               <p>
